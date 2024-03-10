@@ -1,0 +1,401 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.10586}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 print(format("WELCOME TO PES QUIZ GAMING",'^70'))\par
+n=input("Enter your name")\par
+print(format("RULES",'^20'));print("1.Each RIGHT Answer gives you  4 points");print("2.Every WRONG answer 1 point is deducted from the total score")\par
+c=input("If you are ready to start the quiz press 1")\par
+t=0\par
+if c=='1':\par
+    print(n,",you can select a topic of your choice");print("1.POLITICS");print("2.TECHNOLOGY");print("3.HISTORY");print("4.ENTERTAINMENT");\par
+    c1=int(input("Enter the number on which topic you would like to continue"))\par
+    if c1==1:\par
+        print("There will be three levels");print("You can quit anytrime after completion of each level");print("LEVEL 1")\par
+        print("Q1.Who is the present Defence Minister of INDIA");print("1.Baldev Singh");print("2.Nirmala Sitharaman");print("3.Prakash Javadekar");print("4.Narendra Modi");\par
+        m=int(input("Enter your choice"))\par
+        if m==2:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Q2.Who is the present Chief Minister of Karnataka");print("1.Yeddurappa");print("2.HD Kumarswamy");print("3.Siddramaya");print("4.H Devegowdru");\par
+        m1=int(input("Enter your choice"))\par
+        if m1==2:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Q3.Which state has highest no.of seats in LOK SABHA");print("1.Tamil Nadu");print("2.Maharashtra");print("3.Uttar Pradesh");print("4.Orissa");\par
+        m2=int(input("Enter your choice"))\par
+        if m2==3:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Your total score after Level 1 ",t)\par
+        m3=int(input("Enter 1 if you want to continue else 2 to stop it"))\par
+        if m3==2:\par
+            print("Thank You")\par
+        elif m3==1:\par
+            print("LEVEL 2")\par
+            print("Q1.Members of Rajya Sabha are elected by");print("1.people");print("2.legislative assembly members");print("3.Lok Sabha");print("4.ANP members");\par
+            m4=int(input("Enter your choice"))\par
+            if m4==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q2.The power to decide an election petition is vested by");print("1.Parliament");print("2.High Court");print("3.Supreme Court");print("4.Election Commission");\par
+            m5=int(input("Enter your choice"))\par
+            if m5==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q3.Present Lok Sabha is ");print("1.13th Lok Sabha");print("2.14th Lok Sabha");print("3.15th Lok Sabha");print("4.16th Lok Sabha");\par
+            m6=int(input("Enter your choice"))\par
+            if m6==4:\par
+                print("RIGHT ANSWER")\par
+                t=t+4\par
+            else:\par
+              print("WRONG ANSWER")\par
+              t=t-1\par
+        print("Your total score after Level 2 ",t)\par
+        m7=int(input("Enter 1 if you want to continue else 2 to stop it"))\par
+        if m7==2:\par
+            print("Thank You")\par
+        elif m7==1:\par
+            print("LEVEL 3")\par
+            print("Q1.Part VI of constitution of India is not applicable to");print("1.Arunanchal Pradesh");print("2.Jammu & Kashmir");print("3.Sikkim");print("4.Goa");\par
+            m8=int(input("Enter your choice"))\par
+            if m8==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q2.Who can remove the governer of a state");print("1.Legislative Assembly");print("2.Parliament");print("3.President");print("4.Supreme Court");\par
+            m9=int(input("Enter your choice"))\par
+            if m9==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q3.In which year,Goa was formally assimilated in territories of India");print("1.1963");print("2.1960");print("3.1962");print("4.1961");\par
+            m10=int(input("Enter your choice"))\par
+            if m10==1:\par
+                print("RIGHT ANSWER")\par
+                t=t+4\par
+            else:\par
+              print("WRONG ANSWER")\par
+              t=t-1\par
+        print("Your total score after Level 3",t)\par
+        if t>=30:\par
+          print("You are very good at POLITICS")\par
+        elif t<30 and t>20:\par
+           print("You have a sound knowledge on POLITICS")\par
+        else :\par
+            print("You have less knowledge on POLITICS")\par
+        print("Thank You");print("Hope you had a good time")\par
+\par
+    elif c1==2:\par
+        print("There will be three levels");print("You can quit anytrime after completion of each level");print("LEVEL 1")\par
+        print("Q1.In which decade was AIEE founded");print("1.1990");print("2.1880");print("3.1930");print("4.1950");\par
+        m9=int(input("Enter your choice"))\par
+        if m9==2:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Q2.Which type of data base holds only one type of informatioon");print("1.Report");print("2.Field");print("3.Record");print("4.File");\par
+        m10=int(input("Enter your choice"))\par
+        if m10==2:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Q3.'OS' computer abbreviation usually mean");print("1.Operating System");print("2.Open Software");print("3.Optical Sensor ");print("4.Order significance");\par
+        m11=int(input("Enter your choice"))\par
+        if m11==1:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Your total score after Level 1 ",t)\par
+        m12=int(input("Enter 1 if you want to continue else 2 to stop it"))\par
+        if m12==2:\par
+            print("Thank You")\par
+        elif m12==1:\par
+            print("LEVEL 2")\par
+            print("Q1.'.MOV' extension is for ----- type of file");print("1.Image");print("2.Movie");print("3.MS document");print("4.Audio");\par
+            m13=int(input("Enter your choice"))\par
+            if m13==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q2.In which year was MIDI introduced");print("1.1987");print("2.1983");print("3.1973");print("4.1977");\par
+            m14=int(input("Enter your choice"))\par
+            if m14==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q3.'DB' means ");print("1.Database");print("2.Double Byte");print("3.Data Block");print("4.Driver Boot");\par
+            m15=int(input("Enter your choice"))\par
+            if m15==3:\par
+                print("RIGHT ANSWER")\par
+                t=t+4\par
+            else:\par
+              print("WRONG ANSWER")\par
+              t=t-1\par
+        print("Your total score after Level 2 ",t)\par
+        m16=int(input("Enter 1 if you want to continue else 2 to stop it"))\par
+        if m16==2:\par
+            print("Thank You")\par
+        elif m16==1:\par
+            print("LEVEL 3")\par
+            print("Q1.FET is  a type of -----Effect Transistor");print("1.Field");print("2.Factor");print("3.Flash");print("4.Force");\par
+            m17=int(input("Enter your choice"))\par
+            if m17==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q2.'CD' means ");print("1.Command Description");print("2.Change Data");print("3.Copy Density");print("4.Compact Disc");\par
+            m18=int(input("Enter your choice"))\par
+            if m18==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q3.In which decade was the ARRL founded");print("1.1940");print("2.1930");print("3.1920");print("4.1910");\par
+            m19=int(input("Enter your choice"))\par
+            if m19==1:\par
+                print("RIGHT ANSWER")\par
+                t=t+4\par
+            else:\par
+              print("WRONG ANSWER")\par
+              t=t-1\par
+        print("Your total score after Level 3",t)\par
+        if t>=30:\par
+          print("You are very good at MOBILE GAMING")\par
+        elif t<30 and t>20:\par
+           print("You have a sound knowledge on MOBILE GAMING")\par
+        else :\par
+            print("You have less knowledge on MOBILE GAMING")\par
+        print("Thank You");print("Hope you had a good time")\par
+        \par
+    elif c1==3:\par
+        print("There will be three levels");print("You can quit anytrime after completion of each level");print("LEVEL 1")\par
+        print("Q1.The Battle of Plassey was fought in");print("1.1757");print("2.1782");print("3.1742");print("4.1764");\par
+        m20=int(input("Enter your choice"))\par
+        if m20==1:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Q2.Under Akbar,Mir Bakshi was required to look after");print("1.state treasury");print("2.military affairs");print("3.royal household");print("4.Revenue");\par
+        m21=int(input("Enter your choice"))\par
+        if m21==2:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Q3.Tripitakas was sacred books of");print("1.Hindu");print("2.Jains");print("3.Buddhist");print("4.None of the above");\par
+        m22=int(input("Enter your choice"))\par
+        if m22==3:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Your total score after Level 1 ",t)\par
+        m23=int(input("Enter 1 if you want to continue else 2 to stop it"))\par
+        if m23==2:\par
+            print("Thank You")\par
+        elif m23==1:\par
+            print("LEVEL 2")\par
+            print("Q1.Krishnadev Raya's work Amuktamalyada was in ");print("1.Telgu");print("2.Tamil");print("3.Kannada");print("4.Sanskrit");\par
+            m24=int(input("Enter your choice"))\par
+            if m24==1:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q2.Through which  did king exercise in control over village in Vijaynagar");print("1.Central Asia");print("2.Greece");print("3.Iran");print("4.China");\par
+            m25=int(input("Enter your choice"))\par
+            if m25==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q3.To which king Lion capital at Sarnath belongs");print("1.ChandraGupta");print("2.Kanishka");print("3.Ashoka");print("4.Harsha");\par
+            m26=int(input("Enter your choice"))\par
+            if m26==3:\par
+                print("RIGHT ANSWER")\par
+                t=t+4\par
+            else:\par
+              print("WRONG ANSWER")\par
+              t=t-1\par
+        print("Your total score after Level 2 ",t)\par
+        m27=int(input("Enter 1 if you want to continue else 2 to stop it"))\par
+        if m27==2:\par
+            print("Thank You")\par
+        elif m27==1:\par
+            print("LEVEL 3")\par
+            print("Q1.Tipu Sultan was the ruler of ");print("1.Hyderabad");print("2.Mysore");print("3.Madurai");print("4.Vijaynagar");\par
+            m28=int(input("Enter your choice"))\par
+            if m28==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q2.The term 'yavanika' meant");print("1.foreign goods ");print("2.dancer");print("3.curtain");print("4.theatre");\par
+            m29=int(input("Enter your choice"))\par
+            if m29==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q3.Ustad Mansur wsa a famous painter in t6he region");print("1.Shajahan");print("2.Akbar");print("3.Huamyan");print("4.Jahangir");\par
+            m30=int(input("Enter your choice"))\par
+            if m30==4:\par
+                print("RIGHT ANSWER")\par
+                t=t+4\par
+            else:\par
+              print("WRONG ANSWER")\par
+              t=t-1\par
+        print("Your total score after Level 3",t)\par
+        if t>=30:\par
+          print("You are very good at MOBILE GAMING")\par
+        elif t<30 and t>20:\par
+           print("You have a sound knowledge on MOBILE GAMING")\par
+        else :\par
+            print("You have less knowledge on MOBILE GAMING")\par
+        print("Thank You");print("Hope you had a good time")\par
+        \par
+    elif c1==4:\par
+        print("There will be three levels");print("You can quit anytrime after completion of each level");print("LEVEL 1")\par
+        print("Q1.First Indian Movie submitted for Oscar");print("1.The Guide");print("2.Mother India");print("3.Madhumati");print("4.Amrapali");\par
+        m31=int(input("Enter your choice"))\par
+        if m31==2:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Q2.First Indian sound film was ");print("1.Alam Ara");print("2.Raja Harishchandra");print("3.Krishan Kanya");print("4.None of the above");\par
+        m32=int(input("Enter your choice"))\par
+        if m32==1:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Q3.First Filmfare Award for best Actor was awrded to ");print("1.Ashok Kashyap");print("2.Raj Kapoor");print("3.Dilip Kumar");print("4.None of the above");\par
+        m33=int(input("Enter your choice"))\par
+        if m33==3:\par
+            print("RIGHT ANSWER")\par
+            t=t+4\par
+        else:\par
+            print("WRONG ANSWER")\par
+            t=t-1\par
+        print("Your total score after Level 1 ",t)\par
+        m34=int(input("Enter 1 if you want to continue else 2 to stop it"))\par
+        if m34==2:\par
+            print("Thank You")\par
+        elif m34==1:\par
+            print("LEVEL 2")\par
+            print("Q1.Last film directed by Satyajit Ray");print("1.Bala");print("2.Agantuk");print("3.Pikoo");print("4.Jana Aranya");\par
+            m35=int(input("Enter your choice"))\par
+            if m35==2:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q2.Total no. of Best Actor nomination for Amitabh Bachan in Filmfare");print("1.28");print("2.32");print("3.30");print("4.12");\par
+            m36=int(input("Enter your choice"))\par
+            if m36==1:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q3.Who is famous for having said 'Ahard man is good to find'");print("1.Angelina Jolie");print("2.Mae West");print("3.Bill Clinton");print("4.Madonna");\par
+            m37=int(input("Enter your choice"))\par
+            if m37==3:\par
+                print("RIGHT ANSWER")\par
+                t=t+4\par
+            else:\par
+              print("WRONG ANSWER")\par
+              t=t-1\par
+        print("Your total score after Level 2 ",t)\par
+        m38=int(input("Enter 1 if you want to continue else 2 to stop it"))\par
+        if m38==2:\par
+            print("Thank You")\par
+        elif m38==1:\par
+            print("LEVEL 3")\par
+            print("Q1.Satyajit Ray won Oscar in the year");print("1.1994");print("2.1985");print("3.1990");print("4.1992");\par
+            m39=int(input("Enter your choice"))\par
+            if m39==4:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q2.Aishwarya Rai won Miss world in ");print("1.1994");print("2.1996");print("3.1988");print("4.1952");\par
+            m40=int(input("Enter your choice"))\par
+            if m40==1:\par
+               print("RIGHT ANSWER")\par
+               t=t+4\par
+            else:\par
+               print("WRONG ANSWER")\par
+               t=t-1\par
+            print("Q3.FilmFare stared in the year");print("1.1954");print("2.1960");print("3.1972");print("4.1973");\par
+            m41=int(input("Enter your choice"))\par
+            if m41==1:\par
+                print("RIGHT ANSWER")\par
+                t=t+4\par
+            else:\par
+              print("WRONG ANSWER")\par
+              t=t-1\par
+        print("Your total score after Level 3",t)\par
+        if t>=30:\par
+          print("You are very good at MOBILE GAMING")\par
+        elif t<30 and t>20:\par
+           print("You have a sound knowledge on MOBILE GAMING")\par
+        else :\par
+            print("You have less knowledge on MOBILE GAMING")\par
+        print("Thank You");print("Hope you had a good time")\par
+    else:\par
+        print("Wrong entry")\par
+\par
+    \par
+\par
+else:\par
+    print("Thank You")\par
+\par
+        \par
+    \par
+}
+ 
